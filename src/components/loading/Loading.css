@@ -1,0 +1,26 @@
+.loading {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+}
+
+.spin-loading {
+  height: 70px;
+  width: 70px;
+  border: 6px solid #3fc1c936;
+  display: inline-block;
+  border-radius: 50%;
+  border-top-color: #bf3b4b;
+  animation: 1s spin infinite ease-in-out;
+}
+
+.title-loading {
+  margin-left: 30px;
+}
+
+@keyframes spin {
+  to {    
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,40 @@
+#category-title {
+  text-align: center;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 150%;
+  background-color: white;
+  padding: 3%;
+  border-radius: 5px;
+  color: black
+}
+
+#category-card {
+  position: relative;
+  overflow: hidden;
+}
+
+#category-img {
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+#category-card:hover #category-img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#category-rows-mobile {
+  display: none;
+}  
+
+@media only screen and (max-width: 600px) {
+  #category-rows-web {
+    display: none;
+  }
+
+  #category-rows-mobile {
+    display: unset;
+  }
+}

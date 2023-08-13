@@ -1,0 +1,94 @@
+#navbar-logo {
+  margin-left: -5%;
+}
+
+.search-bar {
+  width: 40vw;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar-logo {
+    margin-left: 8px;
+  }
+
+  .search-bar {
+    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.navbar-nav {
+  --bs-nav-link-color: white;
+  --bs-nav-link-hover-color: white;
+  --bs-navbar-active-color: white;
+}
+
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: lightgrey;
+  --bs-dropdown-link-active-color: black;
+}
+
+.offcanvas {
+  background-color: #bf3b4b;
+  bottom: auto;
+}
+
+.navbar {
+  --bs-navbar-toggler-border-color: transparent;
+}
+
+.search {
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+}
+
+.search :is(input, button) {
+  color: inherit;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.search-input {
+  width: 0;
+  transition: width .5s;
+}
+
+.search:focus-within input {
+  width: 20vw;
+  background-color: white;
+  border-radius: 4px;
+  margin-right: 10px;
+  color: darkgray;
+  padding: 5px;
+
+}
+
+::placeholder {
+  color: darkgrey;
+}
+
+#mobile-display {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  #mobile-display {
+      display: flex;
+  }
+  #web-display {
+    display: none;
+  }
+}

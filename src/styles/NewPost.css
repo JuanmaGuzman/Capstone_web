@@ -1,0 +1,125 @@
+
+.input-field {
+  margin-top: 20px;
+  width: 60vw;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-align: left;
+  padding: 4px 8px 4px 8px;
+}
+
+
+.input-field2 {
+  height: 30px;
+  margin-right: 10px;
+  width: 16%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-align: left;
+  padding: 4px 8px 4px 8px;
+}
+
+.input-field3 {
+  height: 30px;
+  width: 10%;
+  margin-right: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-align: left;
+  color: grey;
+}
+
+.file-field {
+  margin-top: 20px;
+  width: 30%;
+  height: 30px;
+  border-radius: 5px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+  
+.card-body {
+  display: flex;
+  overflow: auto;
+  max-height: 21vw
+}
+
+@media only screen and (max-width: 700px) {
+  .input-field {
+    width: 60vw;
+  }
+
+  .card-body {
+    max-height: 55vw
+  }
+  .card-img {
+    max-height: 40vw;
+  }
+}
+  
+.submit-button {
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  background-color: #bf3b4b;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+}
+  
+.submit-button:hover {
+  background-color: #a73442;
+}
+
+.overflow-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.add-more {
+  margin-top: 20px;
+  text-decoration-line: underline;
+  color: #bf3b4b;
+  background-color: white;
+}
+
+.add-more:hover {
+  font-weight: bold;
+}
+
+.delete-button {
+  background-color: #bf3b4b;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  width: 25%;
+  padding: 5px 10px 5px 10px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 20px
+}
+
+.edit-button {
+  background-color: #bf3b4b;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  width: 20%;
+  margin-left: 2%;
+  font-size: 90%;
+  padding: 4px;
+  justify-content: center;
+}
+
+.edit-button:hover {
+  background-color: #a73442
+}
+
+.delete-button:hover {
+  background-color: #a73442
+}

@@ -1,0 +1,76 @@
+.profile-title {
+  margin-bottom: 1em;
+}
+
+.profileDiv {
+  width: 700px;
+}
+
+.web-view-button {
+  background-color: white;
+  padding: 8px 0px 8px 8px;
+  border-color: rgb(191, 59, 75);
+  border-radius: 5px;
+  border: 1px solid;
+  width: 18vw;
+  color:rgb(191, 59, 75);
+  text-align: left;
+}
+
+.mobile-view-button {
+  display: none;
+  background-color: white;
+  padding: 8px 0px 8px 8px;
+  border-color: rgb(191, 59, 75);
+  width: 16vw;
+  color: rgb(191, 59, 75);
+  margin: 0px 8px;
+}
+
+@media only screen and (max-width: 700px) {
+  .web-view-button {
+    display: none;
+  }
+  .profileDiv {
+    width: 85vw;
+    margin-left: 3vw;
+  }
+  .mobile-view-button  {
+    display: unset;
+  }
+}
+
+#using {
+  background-color: #bf3b4b;
+  color:white;
+
+}
+
+.buttonDiv:hover{
+  background-color: rgb(191, 59, 75, 0.05);
+  color: rgb(191, 59, 75);
+}
+
+.profileField {
+  text-align: left;
+  font-size: 105%;
+  margin-left: 10px;
+}
+
+.edit-profile {
+  display: inline-flex;
+  margin: auto;
+  background-color: #bf3b4b;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  align-items: center;
+  text-decoration: none;
+  width: max-content;
+}
+
+.edit-profile:hover {
+  background-color: #A73442;
+  color: white;
+}

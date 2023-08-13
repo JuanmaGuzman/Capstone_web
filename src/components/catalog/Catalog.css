@@ -1,0 +1,85 @@
+.displayed {
+  display: flex;
+  margin: auto;
+  background-color: #bf3b4b;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 1% 10% 1% 10%;
+  align-items: center;
+}
+
+.displayed:hover {
+  background-color: #a73442;
+}
+
+.pagination {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  outline: none;
+  color: #bf3b4b;
+  justify-content: center;
+}
+
+.pagination > li > a {
+  border: 1px solid #bf3b4b;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.pagination > li > a, 
+.pagination > li > span {
+  color: #bf3b4b
+}
+
+.pagination > .active > a {
+  background-color: #bf3b4b;
+  border-color: #bf3b4b;
+  color: #fff;
+}
+
+.pagination > .active > a, 
+.pagination > .active > span, 
+.pagination > .active > a:hover, 
+.pagination > .active > span:hover, 
+.pagination > .active > a:focus, 
+.pagination > .active > span:focus {
+  background-color: #bf3b4b;
+  border-color: #bf3b4b;
+  outline: none ;
+}
+
+.pagination > li:first-child > a, 
+.pagination > li:first-child > span, 
+.pagination > li:last-child > a, 
+.pagination > li:last-child > span {
+  border-radius: unset;
+}
+
+.accordion {
+  border: none;
+}
+
+.accordion-button {
+  background-color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: #fff;
+}
+
+.form-check-input:checked {
+  background-color: #bf3b4b;
+  border: #bf3b4b;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-icon);
+}

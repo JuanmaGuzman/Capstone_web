@@ -1,0 +1,52 @@
+
+#LogInReg {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.input-username {
+  margin-top: 20px;
+  width: 35vw;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  padding: 4px 8px 4px 8px;
+}
+
+@media only screen and (max-width: 700px) {
+  .input-username {
+    width: 60vw;
+  };
+}
+
+#create-profile {
+  margin-top: 25px;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  background-color: #bf3b4b;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+}
+
+#create-profile:hover {
+  background-color: #a73442;
+}
+
+.errors {
+  margin-top: 20px;
+  width: 35vw;
+  height: 30px;
+  border: 2px solid #ff6565;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  padding: 4px 8px 4px 8px;
+}

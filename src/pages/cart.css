@@ -1,0 +1,45 @@
+.cart-outer-div {
+  flex-direction: column;
+  height: 100vh;
+}
+
+.cart-body {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.cart-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: white;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.line {
+  height: 1px;
+  border-bottom: 1px solid black;
+}
+
+.w-120 {
+  width: 120%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.orange-red {
+  color: #bf3b4b;
+}

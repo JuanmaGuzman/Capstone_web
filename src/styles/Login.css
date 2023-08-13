@@ -1,0 +1,66 @@
+.login {
+  width: 500px;
+  height: auto;
+  background: #f7f6f6;
+  border-radius: 5px;
+}
+
+.text-center {
+  color: black;
+  margin-top: 20px;
+}
+
+.login-button {
+  width: 45%;
+  height: 45px;
+  padding: 0px 10px 0px 10px;
+  background: #bf3b4b;
+  color: #ffffff;
+  border-color: #bf8578;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1px 1px 1px 1px;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 10px;
+}
+
+.bottom-link {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.upper-link {
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+input.p-inputtext.p-component.p-password-input {
+  background-color: white; 
+  border-radius: 5px;
+  color: black; 
+  border: 0.5px gray solid;
+  width: 80%;
+  margin-bottom: 10px; 
+  height: 2rem
+}
+
+.displayed {
+  display: flex;
+  margin: auto;
+  background-color: #bf3b4b;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 1% 5% 1% 5%;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.displayed:hover {
+  background-color: #a73442;
+}
